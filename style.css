@@ -1,0 +1,89 @@
+h1{
+    font-size: 200;
+    display:inline;
+}
+.first{
+    display: flex;
+}
+.sec{
+    padding: 45px;
+}
+header{
+    display: block;
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: space-around;
+    background-color:#f39e00 ;
+    border-radius:20px;
+    align-items: center;
+    width: 1360px;
+    border-color: color;
+    border: solid;
+    border-width: 4px;
+    font-family: Montserrat Alternates;
+}
+body{
+    background-color:#ffba18;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.svn{
+    position: relative;
+    text-decoration: none;
+    color:black;
+}
+body>*{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+main>*{
+    display: block;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+p{
+    font-family: Montserrat Alternates;
+}
+p{
+    font-size: 30px;
+}
+article{
+    background-color:#ffc62a;
+    border-radius: 20px;
+    width: 1360px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: solid;
+    border-width: 4px;
+}
+.nn{
+    padding: 40px;
+    align-items: center;
+}
+#ght{
+    margin: 30px;
+}
+article>*{
+    margin: 20px;
+}
+.img{
+    border: solid;
+    border-color: black;
+    border-radius: 20px;
+    margin: 25px;
+    padding:15px;
+    position: relative;
+    border-width: 4px;
+    background-color: #f39e00;
+}
+a{
+    font-size: 20px;
+    font-family: Montserrat Alternates;
+}
