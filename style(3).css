@@ -1,6 +1,8 @@
 p{
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 20px;
+    display: flex;
+    align-items: center;
 }
 h1{
     color: white;
@@ -9,7 +11,7 @@ h1{
     position: relative;
     border: solid;
     border-radius: 20px;
-    background-color: #f39e00;
+    background-color: rgb(91, 91, 91);
     width: 500px;
     padding: 200px;
     display: flex;
@@ -20,13 +22,13 @@ h1{
     align-items: center;
 }
 body{
-    background-color: #ffba18;
+    background-color:#363636 ;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 article{
-    background-color: #ffc62a;
+    background-color:#131313;
     margin: 25px;
     border-radius: 20px; 
     display: flex;
@@ -46,16 +48,16 @@ article{
     padding:15px;
     position: relative;
     border-width: 4px;
-    background-color: #f39e00;
+    border-color: black;
 }
 header{
-    background-color: #ffc62a;
+    background-color: rgb(91, 91, 91);
     width: 1360px;
     border-radius: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border-color: black;
+    background-color:#131313 ;
     border: solid;
     border-width: 4px;
 }
@@ -71,5 +73,7 @@ footer{
 }
 footer>a{
     text-decoration: none;
-    color: black;
+}
+.text{
+    color:white;
 }
