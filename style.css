@@ -1,6 +1,7 @@
 h1{
     font-size: 200;
     display:inline;
+    color:white;
 }
 .first{
     display: flex;
@@ -13,25 +14,24 @@ header{
     flex-wrap: nowrap;
     display: flex;
     justify-content: space-around;
-    background-color:#f39e00 ;
+    background-color:#131313 ;
     border-radius:20px;
     align-items: center;
     width: 1360px;
     border-color: color;
     border: solid;
     border-width: 4px;
-    font-family: Montserrat Alternates;
 }
 body{
-    background-color:#ffba18;
+    background-color:#363636 ;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .svn{
     position: relative;
     text-decoration: none;
-    color:black;
+    color:white;
 }
 body>*{
     display: flex;
@@ -46,14 +46,14 @@ main{
     flex-direction: column;
     position: relative;
 }
-p{
+html{
     font-family: Montserrat Alternates;
 }
 p{
     font-size: 30px;
 }
 article{
-    background-color:#ffc62a;
+    background-color:#131313;
     border-radius: 20px;
     width: 1360px;
     margin: 20px;
@@ -81,9 +81,14 @@ article>*{
     padding:15px;
     position: relative;
     border-width: 4px;
-    background-color: #f39e00;
+    background-color: rgb(91, 91, 91);
 }
 a{
     font-size: 20px;
-    font-family: Montserrat Alternates;
+}
+.l{
+    color:white;
+}
+p{
+    color:white;
 }
