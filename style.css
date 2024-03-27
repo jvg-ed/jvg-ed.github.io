@@ -69,7 +69,8 @@ article{
     align-items: center;
 }
 #ght{
-    margin: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 article>*{
     margin: 20px;
